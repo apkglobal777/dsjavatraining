@@ -2,10 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -101,6 +98,85 @@ public class Main {
                             PreparedStatement ps = con.prepareStatement(deleteQuery);
                             ps.setInt(1, Integer.parseInt(deleteField.getText()));
                             ps.executeUpdate();
+                            JOptionPane.showMessageDialog(null,
+                                    "Record has been deleted");
+                            expencetypelabel.setVisible(true);
+                            expenceamountlabel.setVisible(true);
+                            expencetypefield.setVisible(true);
+                            expenceamoutfield.setVisible(true);
+                            savebutton.setVisible(true);
+                            incomeamountlabel.setVisible(true);
+                            incomeamoutfield.setVisible(true);
+                            deleteField.setVisible(false);
+                            titlelabel.setText("Expense Calculator");
+                        } catch (SQLException ex) {
+                            throw new RuntimeException(ex);
+                        }
+
+                    }
+                }
+            });
+
+            JButton viewbutton=new JButton("View");
+            viewbutton.setBounds(320,200,80,40);
+            frame.add(viewbutton);
+
+            viewbutton.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    if (savebutton.isVisible())
+                    {
+
+                        //to hide the insert form
+                        incomeamountlabel.setVisible(false);
+                        incomeamoutfield.setVisible(false);
+                        expenceamountlabel.setVisible(false);
+                        expenceamoutfield.setVisible(false);
+                        expencetypefield.setVisible(false);
+                        expencetypelabel.setVisible(false);
+                        savebutton.setVisible(false);
+                        titlelabel.setText("Enter Id to udpate Expense");
+                        deleteField= new JTextField();
+                        deleteField.setBounds(50, 60, 100, 40);
+                        frame.add(deleteField);
+                    }
+                    else {
+                        String deleteQuery = "Select * from expencetb where id = ?";
+                        try {
+                            PreparedStatement ps = con.prepareStatement(deleteQuery);
+                            ps.setInt(1, Integer.parseInt(deleteField.getText()));
+                            ResultSet rs = ps.executeQuery();
+                            while (rs.next())
+                            {
+                                System.out.print("ID: " + rs.getInt("id"));
+                                System.out.print("Income amount: " + rs.getInt("incomeamount"));
+                                System.out.print("Expense Type: " + rs.getString("expencetype"));
+                                System.out.print("Expense Amount: " + rs.getInt("expenceamount"));
+                                incomeamoutfield.setText(String.valueOf(rs.getInt("incomeamount")));
+                                expenceamoutfield.setText(String.valueOf(rs.getInt("expenceamount")));
+                                expencetypefield.setText(rs.getString("expencetype"));
+
+                                JButton updateButton = new JButton("Update");
+                                updateButton.setBounds(380,200,80,40);
+                                frame.add(updateButton);
+                                updateButton.addActionListener(new ActionListener() {
+                                    @Override
+                                    public void actionPerformed(ActionEvent e) {
+                                        String updateQuery = "update expencetb set incomeamount = ?, expencetype = ?, expenceamount = ? where id = ?";
+                                        try {
+                                            PreparedStatement ps = con.prepareStatement(updateQuery);
+                                            ps.setInt(1, Integer.parseInt(incomeamoutfield.getText()));
+                                            ps.setString(2, expencetypefield.getText());
+                                            ps.setInt(3, Integer.parseInt(expenceamoutfield.getText()));
+                                            ps.setInt(4, 31);
+                                            ps.executeUpdate();
+                                        } catch (SQLException ex) {
+                                            throw new RuntimeException(ex);
+                                        }
+
+                                    }
+                                });
+                            }
                             JOptionPane.showMessageDialog(null,
                                     "Record has been deleted");
                             expencetypelabel.setVisible(true);
