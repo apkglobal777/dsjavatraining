@@ -10,17 +10,25 @@ import java.sql.SQLException;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    //pass the database the url,username, password in string
+    static JTextField deleteField;
+    static String url="jdbc:mysql://localhost:3310/expencedb";
+    static String user="root";
+    static String password="";
+    static Connection con;
+    static JTextField expencetypefield, expenceamoutfield, incomeamoutfield;
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-//pass the database the url,username, password in string
-String url="jdbc:mysql://localhost:3310/expencedb";
-String user="root";
-String password="";
+        //create frame for expense calculator
+        createExpenseCalculcatorFrame();
+    }
+
+    private static void createExpenseCalculcatorFrame() {
 
         try
         {
-            Connection con= DriverManager.getConnection(url,user,password);
+            con= DriverManager.getConnection(url,user,password);
 
             System.out.println("Connected");
 
@@ -28,7 +36,7 @@ String password="";
             JFrame frame=new JFrame("Vibha Expences ");
 
             JLabel titlelabel=new JLabel("Expences");
-            titlelabel.setBounds(210,10,80,50);
+            titlelabel.setBounds(210,10,180,50);
             titlelabel.setForeground(Color.BLUE);
             frame.add(titlelabel);
 
@@ -37,7 +45,7 @@ String password="";
             expencetypelabel.setForeground(Color.RED);
             frame.add(expencetypelabel);
 
-            JTextField expencetypefield=new JTextField();
+            expencetypefield=new JTextField();
             expencetypefield.setBounds(170,60,100,30);
             frame.add(expencetypefield);
 
@@ -46,7 +54,7 @@ String password="";
             expenceamountlabel.setForeground(Color.RED);
             frame.add(expenceamountlabel);
 
-            JTextField expenceamoutfield=new JTextField();
+            expenceamoutfield=new JTextField();
             expenceamoutfield.setBounds(170,90,100,30);
             frame.add(expenceamoutfield);
 
@@ -55,49 +63,120 @@ String password="";
             incomeamountlabel.setForeground(Color.RED);
             frame.add(incomeamountlabel);
 
-            JTextField incomeamoutfield=new JTextField();
+            incomeamoutfield=new JTextField();
             incomeamoutfield.setBounds(170,120,100,30);
             frame.add(incomeamoutfield);
 
             JButton savebutton=new JButton("Save");
-            savebutton.setBounds(210,200,80,40);
+            savebutton.setBounds(230,200,80,40);
             frame.add(savebutton);
+
+            JButton deletebutton=new JButton("Delete");
+            deletebutton.setBounds(150,200,80,40);
+            frame.add(deletebutton);
+
+            deletebutton.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+
+                    if (savebutton.isVisible())
+                    {
+
+                        //to hide the insert form
+                        incomeamountlabel.setVisible(false);
+                        incomeamoutfield.setVisible(false);
+                        expenceamountlabel.setVisible(false);
+                        expenceamoutfield.setVisible(false);
+                        expencetypefield.setVisible(false);
+                        expencetypelabel.setVisible(false);
+                        savebutton.setVisible(false);
+                        titlelabel.setText("Enter Id to delete Expense");
+                        deleteField= new JTextField();
+                        deleteField.setBounds(50, 60, 100, 40);
+                        frame.add(deleteField);
+                    }
+                    else {
+                       String deleteQuery = "delete from expencetb where id = ?";
+                        try {
+                            PreparedStatement ps = con.prepareStatement(deleteQuery);
+                            ps.setInt(1, Integer.parseInt(deleteField.getText()));
+                            ps.executeUpdate();
+                            JOptionPane.showMessageDialog(null,
+                                    "Record has been deleted");
+                            expencetypelabel.setVisible(true);
+                            expenceamountlabel.setVisible(true);
+                            expencetypefield.setVisible(true);
+                            expenceamoutfield.setVisible(true);
+                            savebutton.setVisible(true);
+                            incomeamountlabel.setVisible(true);
+                            incomeamoutfield.setVisible(true);
+                            deleteField.setVisible(false);
+                            titlelabel.setText("Expense Calculator");
+                        } catch (SQLException ex) {
+                            throw new RuntimeException(ex);
+                        }
+
+                    }
+                }
+            });
+
+            JButton clearbutton=new JButton("Clear");
+            clearbutton.setBounds(50,200,80,40);
+            frame.add(clearbutton);
+
+            clearbutton.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    //to clear the form
+                    clearForm();
+
+                }
+            });
 
             //to click on the save button
             savebutton.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     //To insert the data into table.
-                    String insert="insert into expencetb(incomeamount,expencetype,expenceamount) values(?,?,?)";
-                    PreparedStatement ps= null;
-                    try {
-                        ps = con.prepareStatement(insert);
-                        ps.setInt(1, Integer.parseInt(incomeamoutfield.getText()));
-                        ps.setString(2,expencetypefield.getText());
-                        ps.setInt(3, Integer.parseInt(expenceamoutfield.getText()));
-                        ps.executeUpdate();
-                    } catch (SQLException ex) {
-                        throw new RuntimeException(ex);
-                    }
+                    insertExpenseIntoDB();
 
                 }
             });
 
-
-
-
-
             frame.setSize(500,400);
             frame.setLayout(null);
             frame.setVisible(true);
-
-
         }
         catch (SQLException e)
         {
             throw new RuntimeException(e);
         }
+    }
 
+    private static void insertExpenseIntoDB() {
+        String insert="insert into expencetb(incomeamount,expencetype,expenceamount) values(?,?,?)";
+        PreparedStatement ps= null;
+        try {
+            ps = con.prepareStatement(insert);
+            ps.setInt(1, Integer.parseInt(incomeamoutfield.getText()));
+            ps.setString(2,expencetypefield.getText());
+            ps.setInt(3, Integer.parseInt(expenceamoutfield.getText()));
+            ps.executeUpdate();
 
+            //to clear the form after submit data to mysql
+            clearForm();
+
+            JOptionPane.showMessageDialog(null,
+                    "Record has been added");
+
+        } catch (SQLException ex) {
+            throw new RuntimeException(ex);
+        }
+    }
+
+    private static void clearForm() {
+        expencetypefield.setText("");
+        expenceamoutfield.setText("");
+        incomeamoutfield.setText("");
     }
 }
