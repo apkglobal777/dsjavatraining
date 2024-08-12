@@ -1,3 +1,5 @@
+import com.mongodb.BasicDBObject;
+import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoDatabase;
@@ -7,6 +9,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Iterator;
 import java.util.Random;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -102,6 +105,30 @@ public class Main {
             }
         });
 
+        //to view the task
+        viewTaskbt.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                //to access the task
+                viewTask();
+            }
+        });
+
+    }
+
+    private static void viewTask() {
+
+        String taskID = JOptionPane.showInputDialog(null, "Enter Task id to view");
+        var todoCollection = todoDB.getCollection("todoList");
+        BasicDBObject whereQuery = new BasicDBObject();
+        whereQuery.put("taskId", Integer.parseInt(taskID));
+        FindIterable<Document> cursor = todoCollection.find(whereQuery);
+        //to show the document into components
+        taskNametf.setText(String.valueOf(cursor.iterator().next().get("taskName")));
+        taskDatetf.setText(String.valueOf(cursor.iterator().next().get("taskDate")));
+        tasktimetf.setText(String.valueOf(cursor.iterator().next().get("taskTime")));
+
+
     }
 
     private static void deleteTask() {
@@ -118,8 +145,8 @@ public class Main {
         //to update the task status
 
         String taskId = JOptionPane.showInputDialog(null, "Enter task id to update status");
-        todoCollection.updateOne(new Document("taskId", Integer.parseInt(taskId)),
-                    new Document("$set", new Document("taskStatus", true)));
+//        todoCollection.updateOne(new Document("taskId", Integer.parseInt(taskId)),
+//                    new Document("$set", new Document("taskStatus", true)));
 
 
     }
