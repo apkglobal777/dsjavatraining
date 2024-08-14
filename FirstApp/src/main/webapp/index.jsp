@@ -5,16 +5,18 @@
 <%--</html>--%>
 
 
-<%--<html>--%>
-<%--<body>--%>
-<%--&lt;%&ndash;scriptlet tag in jsp&ndash;%&gt;--%>
-<%--<%--%>
-<%--    String name=request.getParameter("username");--%>
-<%--    out.print("welcome "+name);--%>
-<%--%>--%>
-<%--</form>--%>
-<%--</body>--%>
-<%--</html>--%>
+<html>
+<body>
+<%--scriptlet tag in jsp--%>
+<%
+    //String name=request.getParameter("username");
+    int a = 4;
+    int b = 6;
+    out.print("welcome "+(a+b));
+%>
+</form>
+</body>
+</html>
 
 
 <%--
@@ -53,19 +55,19 @@ expression tags in jsp--%>
 <%--%>--%>
 
 <%--Work on the JSP session--%>
-<html>
-<body>
-<%
+<%--<html>--%>
+<%--<body>--%>
+<%--<%--%>
 
-    String myname=request.getParameter("username");
-    out.print("Welcome "+myname);
+<%--    String myname=request.getParameter("username");--%>
+<%--    out.print("Welcome "+myname);--%>
 
-    session.setAttribute("user",myname);
-//    <a href="second.jsp">second jsp page</a>
+<%--    session.setAttribute("user",myname);--%>
+<%--//    <a href="second.jsp">second jsp page</a>--%>
 
 
-%>
+<%--%>--%>
 
-<jsp:forward page="second.jsp" />
+<%--<jsp:forward page="second.jsp" />--%>
 </body>
 </html>

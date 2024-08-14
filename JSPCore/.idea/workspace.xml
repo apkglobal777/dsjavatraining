@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JSPCore:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="082c079b-1a6b-4d98-af5b-0283eb388a30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/src/main/webapp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/src/main/webapp/READ-ME.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/src/main/webapp/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/src/main/webapp/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/src/main/webapp/free-bootstrap-magazine-template.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogWebsite/src/main/webapp/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First/src/main/webapp/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/READ-ME.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/class.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/feature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/gym-website-template.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitnessGym/src/main/webapp/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPBasic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPBasic/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPBasic/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPBasic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPBasic/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPBasic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPBasic/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPBasic/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPBasic/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPDay2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPDay2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPDay2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPDay2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPDay2/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/READ-ME.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/feature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/img/about-old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/price.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/quote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/startup-website-template.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/team.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NavTechIT/src/main/webapp/testimonial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PawanPortfolio/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PawanPortfolio/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PawanPortfolio/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PawanPortfolio/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PawanPortfolio/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PawanPortfolio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PawanPortfolio/src/main/resources/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PawanPortfolio/src/main/resources/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/css/steller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/folio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/folio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/folio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/folio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/folio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/folio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/imgs/man.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/js/steller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/abstracts/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/abstracts/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/abstracts/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/components/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/components/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/components/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/components/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/components/_googlemap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/components/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/components/_progressbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/layout/_section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/steller.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/scss/vendors/bootstrap-4.3.1/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/bootstrap/bootstrap.affix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/bootstrap/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/bootstrap/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/bootstrap/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/bootstrap/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/jquery/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/jquery/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/jquery/jquery-3.4.1.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/jquery/jquery-3.4.1.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/jquery/jquery-3.4.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/jquery/jquery-3.4.1.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/themify-icons/css/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/themify-icons/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/themify-icons/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/themify-icons/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/assets/vendors/themify-icons/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/components.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebApp/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebsite/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebsite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebsite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebsite/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebsite/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PortfolioWebsite/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstApp/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstApp/src/main/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstApp/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstApp/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kdOsBmaOlPwYZByy9KfoPn74TU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.28.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.28" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.28" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="JSPCore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/JSPCore_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="31b022dd-220d-474c-bd5e-423b89609080" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55225" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JSPCore:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="082c079b-1a6b-4d98-af5b-0283eb388a30" name="Changes" comment="" />
+      <created>1723610196244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723610196244</updated>
+      <workItem from="1723610197229" duration="6649000" />
+      <workItem from="1723617666199" duration="3106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
